@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Fetch Code') {
       steps {
-        git(url: 'https://github.com/thangapandiyanp/html.git', branch: 'main', poll: true)
+        git(url: 'https://github.com/thangapandiyanp/html.git', branch: 'master', poll: true)
       }
     }
 
